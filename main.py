@@ -1,12 +1,12 @@
 i = 0
 bclicked = 0
 atimes = 0
+
 def factorial(n: number):
     if n == 0:
         return 1
     else:
         return n * factorial(n-1)
-
 
 def numElements():
     global atimes, bclicked
